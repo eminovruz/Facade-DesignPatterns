@@ -6,6 +6,7 @@ static public class VideoDownloader
     static private QualityFinder _qualify = new();
     static private LinkFinder _link = new();
 
+
     static public void Start()
     {
         _link.FindLink();
